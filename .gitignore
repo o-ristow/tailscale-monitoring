@@ -1,0 +1,16 @@
+# Local deployment settings and secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Generated deployment files, backups and diagnostics
+generated/
+backups/
+reports/
+
+# Editor and OS files
+*.swp
+*.swo
+*~
+.DS_Store
